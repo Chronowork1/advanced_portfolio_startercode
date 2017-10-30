@@ -1,8 +1,26 @@
 /* Nav Bar CSS */
 .Photo{
-    height: 150px;
-    width: 150px;
+    height: 150px; 
+    width: 200px;
 }
+
+.img-thumbnail{
+    height: 150px;
+    width: 200px;
+}
+
+#Jian{
+    font-size: 40px;
+}
+
+body{
+    text-align: center;
+    background: url(https://assets-cdn.github.com/images/modules/open_graph/github-mark.png) repeat;
+    background-size: cover;
+    background-size: center;
+}
+
+
 /* Header CSS */
 
 
