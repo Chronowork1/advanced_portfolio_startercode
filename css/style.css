@@ -15,12 +15,14 @@
 
 body{
     text-align: center;
-    background: url(https://assets-cdn.github.com/images/modules/open_graph/github-mark.png) repeat;
     background-size: cover;
     background-size: center;
 }
 
-
+.Kim{
+    height: 300px;
+    width: 400px;
+}
 /* Header CSS */
 
 
