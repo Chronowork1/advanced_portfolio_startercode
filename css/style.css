@@ -1,6 +1,6 @@
 /* Nav Bar CSS */
 .Photo{
-    height: 150px; 
+    height: 200px; 
     width: 200px;
 }
 
@@ -9,13 +9,25 @@
     width: 200px;
 }
 
-#Jian{
-    font-size: 40px;
+#portfolio{
+    color: green;
+    font-size: 250%;
 }
 
 .Kim{
     height: 300px;
     width: 400px;
+}
+
+.Jungle {
+    height:200px;
+    width:400px;
+}
+
+body {
+    Background: url(https://assets-cdn.github.com/images/modules/logos_page/Octocat.png);
+    background-size:cover;
+    
 }
 /* Header CSS */
 
