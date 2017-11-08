@@ -2,11 +2,13 @@
 .Photo{
     height: 200px; 
     width: 200px;
+    margin: 40px 0px 0px 0px;
 }
 
 .img-thumbnail{
     height: 150px;
     width: 200px;
+    margin: 40px 0px 0px 0px;
 }
 
 #portfolio{
@@ -17,18 +19,40 @@
 .Kim{
     height: 300px;
     width: 400px;
+    margin: 0 auto;
 }
 
 .Jungle {
     height:200px;
     width:400px;
+    margin: 0 auto;
 }
 
-body {
-    Background: url(https://assets-cdn.github.com/images/modules/logos_page/Octocat.png);
-    background-size:cover;
+body{
+    font-family: helvetica;
+    text-align: center;
+}
+
+.caption {
+ margin: 0 auto;   
+}
+
+p{
+    font-size: 16px;
     
 }
+
+.row {
+    text-align: center;
+}
+/*.cat {
+    background: 
+    opacity:.5;
+    url(https://assets-cdn.github.com/images/modules/logos_page/Octocat.png);
+    background-size: 100%;
+}
+*/
+
 /* Header CSS */
 
 
