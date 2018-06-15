@@ -17,7 +17,7 @@
 
 
 // Create your potrfolio object representation below
-
+$("#Home").click();
 
 
 
