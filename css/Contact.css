@@ -1,4 +1,4 @@
-
+    
     header {
       text-align: center;
       background: url(https://images.unsplash.com/photo-1508144322886-717c284ab392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
@@ -17,6 +17,7 @@
     #Home, #Projects, #About, #Contact{
       margin:7px;
     }
+    
     ul {
       color: white;
       text-align: center;
@@ -27,50 +28,37 @@
       display: inline;
       padding: 0px 10px 0px 10px;
     }
+    
     article {
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
-      font-family: times;
     }
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-        font-family:times;
-      }
-      li {
-        padding: 5px;
-        display: block;
-        font-family:times;
-      }
-    }
-    p{
-      line-height:1.5;
-      font-family: times;
-      font-size: 20px;
+    h1 {
+      font-family:times;
+      font-size: 30px;
     }
     
-/*body{
+
+
+/*body {
     line-height: 1.5;
-    font-family: times;
-    font-size: 20px;
+    font-family: helvetica;
     padding: 0;
     margin: 0;
-}
-
-html{
- border-style:solid;   
+    font-size: 20px;
+    border-style: solid;
 }
 
 .container{
+    width: 50%;
     margin: auto;
+    overflow: hidden;
+    font-family:times;
 }
-
 header{
-    padding-top: 250px;
-    background: url(https://images.unsplash.com/photo-1508144322886-717c284ab392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
-    background-size: cover;
+    padding-top:30px;
+    min-height:70px;
 }
 
 header a{
@@ -80,27 +68,28 @@ header a{
 }
 
 header ul{
-    width:100%;
-    background: rgba(0,0,0,0.5);
+    margin:0;
+    padding:0;
 }
 
 header li{
     float: left;
     display: inline;
+    font-family:times;
 }
 
-#Home, #About, #Projects, #Contact{
-  color: white;    
+.container h1, h2{
+    font-size: 30px;
+    line-height: 2;
 }
 
-#intro{
-    text-align: center;
+#contactMe{
+    text-align:center;
+    font-family:times;
 }
 
 #woodImg{
     width:100%;
-    height:40px;
+    height:100px;
     opacity:.7;
-}
-
-*/
+}*/
