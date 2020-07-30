@@ -1,53 +1,56 @@
-
-
-    header {
-      text-align: center;
-      background: url(https://images.unsplash.com/photo-1508144322886-717c284ab392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
-      background-size: cover;
-      color: white;
-      height: 250px;
-      width: 100%;
-    }
-    header div{
-        height: 205px;
-    }
+header {
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1508144322886-717c284ab392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+  color: white;
+  height: 250px;
+  width: 100%;
+}
+header div{
+  height: 205px;
+}
     
-    #Home, #Projects, #About, #Contact{
-      color: white;
-    }
-    #Home, #Projects, #About, #Contact{
-      margin:7px;
-    }
-    ul {
-      color: white;
-      text-align: center;
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    article {
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-      font-family: times;
-    }
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-        font-family:times;
-      }
-      li {
-        padding: 5px;
-        display: block;
-        font-family:times;
-      }
-    }
-    p{
-      line-height:1.5;
-      font-family: times;
-      font-size: 20px;
-    }
+#Home, #Projects, #About, #Contact{
+  color: white;
+}
+#Home, #Projects, #About, #Contact{
+  margin:7px;
+}
+ul {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: times;
+}
+/*@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+    font-family:times;
+  }
+  li {
+    padding: 5px;
+    display: block;
+    font-family:times;
+  }
+}*/
+p{
+  line-height:1.5;
+  font-family: times;
+  font-size: 20px;
+}
+ #intro{
+   max-width:750px;
+   margin: 0 auto;
+   text-align: center;
+ }
