@@ -12,7 +12,7 @@
         height: 205px;
     }
     
-    a {
+    #Home, #Projects, #About, #Contact{
       color: white;
     }
     #Home, #Projects, #About, #Contact{
