@@ -30,25 +30,7 @@ li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
-section {
-  max-width: 500px;
-  padding: 20px;
-  margin: 0 auto;
-  font-family: times;
-  text-align:center;
-}
     
-#list_Projects {
-  max-width: 85%;
-  text-align: left;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-}
-    
-#projects_inside div{
-  margin: 5px 5px 75px 5px;
-}
 
 .box-area{
   background-color: white;
@@ -132,5 +114,17 @@ section {
   }
   100%{
     transform: translateY(875px);
+  }
+}
+
+@media only screen and (max-width:1050px){
+  .box-area li{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    animation: animate;
+    z-index: -1;
   }
 }

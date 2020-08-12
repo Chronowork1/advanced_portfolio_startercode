@@ -120,7 +120,17 @@ li {
   }
 }
 
-
+@media only screen and (max-width:1050px){
+  .box-area li{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    animation: animate;
+    z-index: -1;
+  }
+}
 
 /*body {
   line-height: 1.5;
