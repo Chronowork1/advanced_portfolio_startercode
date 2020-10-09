@@ -35,6 +35,10 @@ h1 {
   font-size: 30px;
 }
 
+h4 {
+  font-family:times;
+  font-size: 25px;
+}
   .box-area{
   background-color: white;
   margin: 0;

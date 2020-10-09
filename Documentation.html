@@ -56,6 +56,21 @@
       &ltarticle&gt<br>
       &ltfooter&gt<br>
     </p>
+    <h4>Additional</h4>
+    <p>
+      &ltarticle&gt<br>
+      &ltdetails&gt<br>
+      &ltfigcaption&gt<br>
+      &ltfigure&gt<br>
+      &ltfooter&gt<br>
+      &ltsummary&gt<br>
+      &ltheader&gt<br>
+      &ltmain&gt<br>
+      &ltmark&gt<br>
+      &ltnav&gt<br>
+      &ltsection&gt<br>
+      &lttime&gt<br>
+    </p>
   </div>
   <div>
     <h1>CSS Properties inclusion</h1>
@@ -100,11 +115,72 @@
   </div>
   <div>
     <h1>Animations</h1>
+    <code>
+      .box-area:li{<br>
+        animation-name: hello<br>
+      }<br>
+
+      .box-area: li nth-child(1){<br>
+        animation-delay: 2s <br>
+        animation-duration:2s <br>
+      }<br>
+
+      @keyframes animate{<br>
+        0%<br>
+          transform: translateY(0)<br>
+        100%<br>
+          transform: translateY(875px)<br>
+      }<br>
+    </code>
+  </div>
+  <div>
+    <h1>@Media Rule</h1>
+    <code>
+      @media Screen and (max-width:100px){<br>
+
+      }<br>
+
+      @media only Screen and (max-width: 100px){<br>
+
+      }<br>
+    </code>
+  </div>
+  <div>
+    <h1>Transition</h1>
     <p>
-      
+      transition<br>
+      transition-delay<br>
+      transition-duration<br>
+      transition-property<br>
+      transition-timing-function<br>
     </p>
   </div>
-  <div class="animation-area">
+  <div>
+    <h1>:Before &:After</h1>
+    <p>
+
+    </p>
+  </div>
+  <div>
+    <h1>Transform</h1>
+    <p>
+      transform<br>
+      transform-origin<br>
+      transform-style<br>
+    </p>
+  </div>
+  <div>
+    <h1>3D Transform</h1>
+    <p>
+      transform<br>
+      transform-origin<br>
+      transform-style<br>
+      perspective<br>
+      perspective origin<br>
+      backface-visibility<br>
+    </p>
+  </div>
+  <!--<div class="animation-area">
     <ul class="box-area">
       <li></li>
       <li></li>
@@ -113,7 +189,7 @@
       <li></li>
       <li></li>
     </ul>
-  </div>
+  </div>-->
 </body>
 <footer></footer>
   
