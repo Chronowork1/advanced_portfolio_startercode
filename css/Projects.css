@@ -31,7 +31,9 @@ li {
   padding: 0px 10px 0px 10px;
 }
     
-
+.container h1{
+  text-align: center;
+}
 .box-area{
   background-color: white;
   margin: 0;
